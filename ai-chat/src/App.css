@@ -45,14 +45,14 @@ body {
 }
 
 .bot-message {
-  background-color: #222831;
+  background-color: #31363F;
   color: #EEEEEE;
   text-align: left;
   align-self: flex-start;
 }
 
 .user-message {
-  background-color: #76ABAE;
+  background-color: #222831;
   color: #EEEEEE;
   text-align: right;
   align-self: flex-end;
