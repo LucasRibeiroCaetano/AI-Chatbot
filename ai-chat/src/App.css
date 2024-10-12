@@ -84,3 +84,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
+
+.chat-footer button:hover {
+  background-color: #222831;
+}
