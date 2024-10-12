@@ -9,11 +9,9 @@ function App() {
 
   const sendMessage = () => {
     if (input.trim() !== "") {
-      // Add user's message
       setMessages([...messages, { text: input, sender: "user" }]);
-      setInput(""); // Clear the input field
+      setInput("");
 
-      // Simulate a bot response after 1 second
       setTimeout(() => {
         setMessages((prevMessages) => [
           ...prevMessages,
@@ -26,7 +24,7 @@ function App() {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h2>Chatbot</h2>
+        <h2>This AI sucks...</h2>
       </div>
       <div className="chat-body">
         {messages.map((message, index) => (

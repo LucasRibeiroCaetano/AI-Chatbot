@@ -1,0 +1,86 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222831;
+}
+
+.chat-container {
+  width: 400px;
+  background-color: #31363F;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #76ABAE;
+  padding: 15px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+.chat-body {
+  flex-grow: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #31363F;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  background-color: #222831; /* update background color */
+  color: white; /* add text color */
+}
+
+.bot-message {
+  background-color: #222831;
+  color: #EEEEEE;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.user-message {
+  background-color: #76ABAE;
+  color: #EEEEEE;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  background-color: #31363F;
+}
+
+/*i want to change the background of the text input to #222831*/
+
+.chat-footer input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #222831;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #222831; /* add this line */
+  color: #EEEEEE;
+}
+
+.chat-footer button {
+  background-color: #76ABAE;
+  color: #EEEEEE;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
